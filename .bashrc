@@ -18,3 +18,7 @@ function mkenv() {
 function shenv() {
     source $ENV_DIR/$1/bin/activate
 }
+
+function rmenv() {
+    sudo rm -rf $ENV_DIR/$1
+}
