@@ -22,3 +22,7 @@ function shenv() {
 function rmenv() {
     sudo rm -rf $ENV_DIR/$1
 }
+
+function lsenv() {
+        ls $ENV_DIR
+}
