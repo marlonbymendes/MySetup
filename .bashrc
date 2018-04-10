@@ -7,6 +7,8 @@ mkcd () {
 
 alias docker="sudo docker"
 alias docker-compose="sudo docker-compose"
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
 
 ### Python
 export ENV_DIR=$HOME/virtualenvs/
