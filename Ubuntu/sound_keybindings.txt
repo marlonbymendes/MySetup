@@ -1,0 +1,12 @@
+I'm on Ubuntu 16.04: for me it was required to install these package(s):
+    sudo apt-get install mpdris2 mpris-remote
+    (I haven't tested which of the 2 actually worked)
+
+    Then, I tested the following: I've dropped the quotes and removed the last part after the last quote, as this part didn't work for me (got an error: Data item "XF86AudioPlay" is badly formed).
+
+    dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+    dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop
+    dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+    dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+
+https://gist.github.com/jbonney/5743509#gistcomment-1795681
