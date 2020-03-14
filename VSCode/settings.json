@@ -7,4 +7,5 @@
     "workbench.preferredHighContrastColorTheme": "Solarized Light",
     "workbench.colorTheme": "Default Light+",
     "prettier.singleQuote": true,
+    "editor.minimap.enabled": false
 }
