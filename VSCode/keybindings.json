@@ -121,5 +121,14 @@
     {
         "key": "cmd+k cmd+s",
         "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "cmd+k v",
+        "command": "-markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+m",
+        "command": "markdown.showPreviewToSide"
     }
 ]
