@@ -1,0 +1,10 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "folders": [],
+    "settings": {},
+    "editor.formatOnSave": true,
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.preferredHighContrastColorTheme": "Solarized Light",
+    "workbench.colorTheme": "Default Light+",
+    "prettier.singleQuote": true,
+}
