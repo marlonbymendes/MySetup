@@ -3,9 +3,11 @@
     "folders": [],
     "settings": {},
     "editor.formatOnSave": true,
-    "workbench.preferredLightColorTheme": "Default Dark+",
-    "workbench.preferredHighContrastColorTheme": "Solarized Light",
-    "workbench.colorTheme": "Default Light+",
+    "workbench.preferredHighContrastColorTheme": "Solarized Dark",
     "prettier.singleQuote": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
+    "workbench.preferredLightColorTheme": "Quiet Light",
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Community Material Theme"
 }

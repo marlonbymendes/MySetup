@@ -20,3 +20,8 @@ function mkcd
     mkdir $argv
     cd $argv
 end
+
+function ts
+    tsc $argv.ts
+    node $argv.js
+end
