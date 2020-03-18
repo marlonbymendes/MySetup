@@ -22,6 +22,18 @@ function mkcd
 end
 
 function ts
-    tsc $argv.ts
+    tsc --lib ES2015 --types node $argv.ts
     node $argv.js
+end
+
+function poweroff
+    sudo shutdown -h now
+end
+
+function coderc
+    cd ~/Library/Application\ Support/Code/User/
+end
+
+function swe
+    cd ~/repos/swe
 end
