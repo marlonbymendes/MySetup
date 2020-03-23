@@ -9,9 +9,6 @@ EXTENSION = '.png'
 DESKTOP = 'Desktop'
 DIR = os.path.join(Path.home(), DESKTOP)
 
-print(f'DIR = {DIR}')
-print(f'Files = {os.listdir(DIR)}')
-
 def pic_date(name):
     name = name[:-len(EXTENSION)]
     _, _, year_month_day, _, hour_minute_second, am_pm = name.split(' ')
@@ -50,7 +47,6 @@ def get_latest_pic():
 
 def move_to(frompath, topath):
     cmd = f'mv {frompath} {topath}'
-    print(f'Trying cmd="{cmd}"')
     os.system(cmd)
 
 if __name__ == '__main__':
