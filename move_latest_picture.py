@@ -54,4 +54,4 @@ if __name__ == '__main__':
     to = sys.argv[1]
     frompath = latest.filepath.replace(' ', '\\ ')
     move_to(frompath, to)
-    print(f'Moved {latest.filename} to {to}')
+    print(f'Moved "{latest.filename}" to "{to}"')
