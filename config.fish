@@ -39,3 +39,5 @@ function swe
 end
 
 source ~/.config/fish/heroku-autocomplete.fish
+
+alias mvsc "python3 ~/repos/MySetup/move_latest_picture.py"
