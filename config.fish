@@ -37,3 +37,5 @@ end
 function swe
     cd ~/repos/swe
 end
+
+source ~/.config/fish/heroku-autocomplete.fish

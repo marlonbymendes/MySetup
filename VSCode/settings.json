@@ -9,5 +9,8 @@
     "workbench.preferredDarkColorTheme": "Solarized Dark",
     "workbench.preferredLightColorTheme": "Quiet Light",
     "editor.fontSize": 16,
-    "workbench.colorTheme": "Community Material Theme"
+    "workbench.colorTheme": "Community Material Theme",
+    "prettier.disableLanguages": [
+        "markdown"
+    ]
 }
