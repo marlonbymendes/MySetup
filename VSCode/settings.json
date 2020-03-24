@@ -12,5 +12,8 @@
     "workbench.colorTheme": "Community Material Theme",
     "prettier.disableLanguages": [
         "markdown"
-    ]
+    ],
+    "javascript.format.semicolons": "true",
+    "typescript.format.semicolons": "true",
+    "prettier.tabWidth": 4
 }
