@@ -1,19 +1,21 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "folders": [],
-    "settings": {},
-    "editor.formatOnSave": true,
-    "workbench.preferredHighContrastColorTheme": "Solarized Dark",
-    "prettier.singleQuote": true,
-    "editor.minimap.enabled": false,
-    "workbench.preferredDarkColorTheme": "Solarized Dark",
-    "workbench.preferredLightColorTheme": "Quiet Light",
     "editor.fontSize": 16,
-    "workbench.colorTheme": "Community Material Theme",
-    "prettier.disableLanguages": [
-        "markdown"
-    ],
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "folders": [],
     "javascript.format.semicolons": "true",
+    "javascript.preferences.quoteStyle": "single",
+    "prettier.disableLanguages": [ "markdown" ],
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "settings": {},
     "typescript.format.semicolons": "true",
-    "prettier.tabWidth": 4
+    "typescript.preferences.quoteStyle": "single",
+    "workbench.colorTheme": "Community Material Theme",
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
+    "workbench.preferredHighContrastColorTheme": "Solarized Dark",
+    "workbench.preferredLightColorTheme": "Quiet Light",
+    "workbench.startupEditor": "newUntitledFile"
+
 }

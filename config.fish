@@ -41,3 +41,5 @@ end
 source ~/.config/fish/heroku-autocomplete.fish
 
 alias mvsc "python3 ~/repos/MySetup/move_latest_picture.py"
+alias gdiff "git diff --unified=0"
+alias python "python3"
