@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 16,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
     "folders": [],
     "javascript.format.semicolons": "true",
@@ -13,9 +13,11 @@
     "typescript.format.semicolons": "true",
     "typescript.preferences.quoteStyle": "single",
     "workbench.colorTheme": "Community Material Theme",
+    "workbench.editor.enablePreview": false,
     "workbench.preferredDarkColorTheme": "Solarized Dark",
     "workbench.preferredHighContrastColorTheme": "Solarized Dark",
     "workbench.preferredLightColorTheme": "Quiet Light",
-    "workbench.startupEditor": "newUntitledFile"
-
+    "workbench.startupEditor": "newUntitledFile",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false
 }
