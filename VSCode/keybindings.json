@@ -210,5 +210,13 @@
         "key": "f3",
         "command": "-workbench.action.terminal.findNext",
         "when": "terminalFocus"
+    },
+    {
+        "key": "f4",
+        "command": "tslint.fixAllProblems"
+    },
+    {
+        "key": "f5",
+        "command": "eslint.executeAutofix"
     }
 ]
