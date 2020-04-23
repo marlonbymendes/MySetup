@@ -38,6 +38,10 @@ function swe
     cd ~/repos/swe
 end
 
+function movieme
+    cd ~/repos/movieme
+end
+
 source ~/.config/fish/heroku-autocomplete.fish
 
 alias mvsc "python3 ~/repos/MySetup/move_latest_picture.py"

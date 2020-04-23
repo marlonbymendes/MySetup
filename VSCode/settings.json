@@ -1,8 +1,7 @@
 {
     "editor.fontSize": 16,
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
-    "eslint.autoFixOnSave": true,
     "folders": [],
     "javascript.format.semicolons": "true",
     "javascript.preferences.quoteStyle": "single",
@@ -22,10 +21,13 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDelete": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": false
     },
     "files.exclude": {
         "**/*.swp": true,
         "**/node_modules": true
-    }
+    },
+    "eslint.format.enable": true,
+    "editor.largeFileOptimizations": false,
+    "window.zoomLevel": 0
 }
