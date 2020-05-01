@@ -5,7 +5,9 @@
     "folders": [],
     "javascript.format.semicolons": "true",
     "javascript.preferences.quoteStyle": "single",
-    "prettier.disableLanguages": [ "markdown" ],
+    "prettier.disableLanguages": [
+        "markdown"
+    ],
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
@@ -29,5 +31,15 @@
     },
     "eslint.format.enable": true,
     "editor.largeFileOptimizations": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
 }
