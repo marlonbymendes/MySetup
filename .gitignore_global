@@ -173,3 +173,5 @@ hs_err_pid*
 *.su
 *.idb
 *.pdb
+
+**app-keys.json

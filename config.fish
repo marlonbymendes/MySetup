@@ -45,8 +45,8 @@ end
 source ~/.config/fish/heroku-autocomplete.fish
 
 alias mvsc "python3 ~/repos/MySetup/move_latest_picture.py"
-alias gdiff "git diff --unified=0 -- . ':(exclude)*.lock' ':(exclude)*package.json'"
-alias gshow "git diff --unified=0 -- . ':(exclude)*.lock' ':(exclude)*package.json'"
+alias gdiff "git diff --unified=0 -- . ':(exclude)*.lock'"
+alias gshow "git show --unified=0 -- . ':(exclude)*.lock'"
 alias python "python3"
 
 set -x GOPATH ~/go
