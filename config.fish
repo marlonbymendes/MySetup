@@ -42,6 +42,10 @@ function movieme
     cd ~/repos/movieme
 end
 
+function trees
+    tree -I "node_modules|dist|build|*.lock" .
+end
+
 source ~/.config/fish/heroku-autocomplete.fish
 
 alias mvsc "python3 ~/repos/MySetup/move_latest_picture.py"
