@@ -10,7 +10,6 @@
     ],
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
     "settings": {},
     "typescript.format.semicolons": "true",
     "typescript.preferences.quoteStyle": "single",
@@ -31,7 +30,7 @@
     },
     "eslint.format.enable": true,
     "editor.largeFileOptimizations": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "[typescript]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
@@ -69,5 +68,8 @@
         "selection.background": "#7CB34240"
     },
     "materialTheme.accent": "Lime",
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.tabWidth": 4,
+    "go.useLanguageServer": true,
+    "editor.links": false
 }

@@ -46,6 +46,12 @@ function trees
     tree -I "node_modules|dist|build|*.lock" .
 end
 
+function nodeclean
+    rm -rf node_modules
+    rm -rf *.lock
+    rm -rf package-lock.json
+end
+
 source ~/.config/fish/heroku-autocomplete.fish
 
 alias mvsc "python3 ~/repos/MySetup/move_latest_picture.py"
@@ -55,3 +61,31 @@ alias python "python3"
 
 set -x GOPATH ~/go
 set -x PATH $PATH /usr/local/go/bin $GOPATH/bin
+
+# CP
+
+alias ct "cp ~/cp/template/template.cpp ."
+
+function cpy
+	cat  "$argv[1] | xclip -selection c"
+end
+
+function cr
+	mkdir  "$argv[1]"
+	cd  "$argv[1]"
+	ct
+	mv template.cpp  "$argv[1].cpp"
+#xdotool key ctrl+shift+t
+#xdotool key ctrl+Page_Up
+#xdotool key F11
+	vim  "$argv[1].cpp"
+end
+
+function cmp
+	set BIN_FILE "prog"
+	g++  (find . -name '*.cpp') -o $BIN_FILE -Wshadow -Wall -fsanitize=address -fsanitize=undefined -std=c++17
+end
+
+function cf
+    cd ~/cp/codeforces/
+end

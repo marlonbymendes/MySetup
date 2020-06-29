@@ -239,5 +239,22 @@
         "key": "f4",
         "command": "-references-view.next",
         "when": "reference-list.hasResult"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "-workbench.action.files.saveLocalFile",
+        "when": "remoteFileDialogVisible"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "workbench.action.files.saveWithoutFormatting"
+    },
+    {
+        "key": "cmd+k s",
+        "command": "-workbench.action.files.saveWithoutFormatting"
     }
 ]
