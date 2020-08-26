@@ -89,3 +89,31 @@ end
 function cf
     cd ~/cp/codeforces/
 end
+
+function cpy
+	cat (find . -name '*.cpp') | pbcopy
+end
+
+function mkdirmetadata
+	echo 'mkdirmetadata'
+	pwd
+	fish ~/repos/swe/fish/mkdirmetadata.fish
+	echo 'done'
+end
+
+function codemkdir
+	code ~/repos/swe/fish/mkdirmetadata.fish
+end
+
+function mtc
+	python3 /Users/marlonguimaraes/repos/swe/py/metadata-converter/main.py (pwd)
+end
+
+function lt
+	vtex local token
+end
+
+function lint
+	yarn format
+	yarn lint --fix
+end

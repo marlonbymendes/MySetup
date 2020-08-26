@@ -69,7 +69,11 @@
     },
     "materialTheme.accent": "Lime",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "prettier.tabWidth": 4,
+    "prettier.tabWidth": 2,
     "go.useLanguageServer": true,
-    "editor.links": false
+    "editor.links": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabSize": 2
 }
