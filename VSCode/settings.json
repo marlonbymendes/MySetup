@@ -3,7 +3,7 @@
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "folders": [],
-    "javascript.format.semicolons": "true",
+    "javascript.format.semicolons": "remove",
     "javascript.preferences.quoteStyle": "single",
     "prettier.disableLanguages": [
         "markdown"
@@ -11,7 +11,6 @@
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "settings": {},
-    "typescript.format.semicolons": "true",
     "typescript.preferences.quoteStyle": "single",
     "workbench.colorTheme": "Community Material Theme",
     "workbench.editor.enablePreview": false,
@@ -22,7 +21,12 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDelete": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": false
+        // For ESLint
+        "source.fixAll.eslint": true,
+        // For TSLint
+        "source.fixAll.tslint": true,
+        // For Stylelint
+        "source.fixAll.stylelint": true
     },
     "files.exclude": {
         "**/*.swp": true,
@@ -33,14 +37,15 @@
     "window.zoomLevel": -1,
     "[typescript]": {
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": false
         },
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
+            "source.organizeImports": false
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "explorer.confirmDragAndDrop": false,
     "workbench.colorCustomizations": {
@@ -75,5 +80,16 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "files.associations": {
+        "*.jsx": "javascriptreact",
+        "*.js": "javascript"
+    },
+    "prettier.jsxBracketSameLine": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }

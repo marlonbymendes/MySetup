@@ -48,6 +48,8 @@ end
 
 function nodeclean
     rm -rf node_modules
+		rm -rf node/node_modules
+		rm -rf react/node_modules
     rm -rf *.lock
     rm -rf package-lock.json
 end
@@ -116,4 +118,9 @@ end
 function lint
 	yarn format
 	yarn lint --fix
+	yarn eslint ./src --cache --ext ts --fix --config .eslintrc
+end
+
+function dbranch
+	git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -D
 end
